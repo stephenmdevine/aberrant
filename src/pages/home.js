@@ -6,7 +6,7 @@ import CharacterContext from '../context/CharacterContext';
 export default function Home() {
 
   const [ gameCharacters, setGameCharacters, loadGameCharacters ] = useContext(CharacterContext);
-  console.log('CharacterContext in Home:', character);
+  console.log('CharacterContext in Home:', gameCharacters);
 
   const { id } = useParams();
 

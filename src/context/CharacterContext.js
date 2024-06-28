@@ -41,7 +41,7 @@ export const CharacterProvider = ({ children }) => {
         }
     }
 
-    console.log('CharacterProvider initialized:', character);
+    console.log('CharacterProvider initialized:', gameCharacter);
 
     return (
         <CharacterContext.Provider value={{ gameCharacter, setGameCharacter, gameCharacters, setGameCharacters, createGameCharacter, loadGameCharacters }}>
